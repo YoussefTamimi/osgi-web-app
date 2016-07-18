@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: fr.esiag.isin.osgi-web-app
+Bundle-Version: 1.0.0
+Bundle-Vendor: esiag
+Import-Package: javax.servlet.http;version="3.1.0", org.osgi.framework
+Bundle-ClassPath: WEB-INF/classes
+Web-ContextPath: /osgi-web-app
+Service-Component: OSGI-INF/component.xml

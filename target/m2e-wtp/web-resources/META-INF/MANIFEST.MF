@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/component.xml
+Bundle-ClassPath: WEB-INF/classes
+Built-By: DZETA
+Class-Path: org.apache.felix.framework-5.4.0.jar javax.servlet-api-3.1
+ .0.jar jetty-jsp-9.3.0.M0.jar jetty-schemas-3.1.M0.jar javax.servlet.
+ jsp-api-2.3.1.jar javax.servlet.jsp-2.3.2.jar javax.servlet.jsp.jstl-
+ 1.2.0.v201105211821.jar javax.servlet.jsp.jstl-1.2.2.jar javax.el-3.0
+ .0.jar org.eclipse.jdt.core-3.8.2.v20130121.jar jetty-server-9.3.8.v2
+ 0160314.jar jetty-http-9.3.8.v20160314.jar jetty-util-9.3.8.v20160314
+ .jar jetty-io-9.3.8.v20160314.jar
+Created-By: Maven Integration for Eclipse
+Web-ContextPath: /osgi-web-app
+Bundle-Vendor: esiag
+Build-Jdk: 1.7.0_79
+Bundle-Version: 1.0.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: fr.esiag.isin.osgi-web-app
+Import-Package: javax.servlet.http;version="3.1.0", org.osgi.framework
+
